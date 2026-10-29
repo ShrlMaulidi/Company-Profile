@@ -10,11 +10,15 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        User::create([
+        User::firstOrCreate(['email' => 'coorporate.mss001@gmail.com'], [
             'name' => 'Administrator',
-            'email' => 'coorporate.mss001@gmail.com', 
-            'password' => Hash::make('password123'), 
+            'password' => Hash::make('password123'),
             'email_verified_at' => now(),
+        ]);
+
+        $this->call([
+            PackageSeeder::class,
+            PartnerSeeder::class,
         ]);
     }
 }
