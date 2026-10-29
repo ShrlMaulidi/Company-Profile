@@ -24,9 +24,9 @@
     <div class="flex flex-col items-center relative z-10">
         <div class="w-72 bg-white dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border-t-4 border-indigo-600 p-6 text-center transition-all duration-300 transform hover:-translate-y-1">
             <div class="w-20 h-20 mx-auto bg-indigo-50 dark:bg-indigo-900/30 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <img src="/organisasi/rifky.jpeg" alt="Foto Komisaris" class="w-full h-full object-cover">
+                <img src="/organisasi/" alt="Foto Komisaris" class="w-full h-full object-cover">
             </div>
-            <h3 class="text-xl font-bold text-slate-900 dark:text-white">Rifky Permana</h3>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white">.</h3>
             <p class="text-indigo-600 dark:text-indigo-400 text-sm font-semibold mt-1">Komisaris</p>
         </div>
         <div class="h-10 w-0.5 bg-slate-300 dark:bg-gray-600"></div>
